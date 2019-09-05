@@ -1,0 +1,26 @@
+body {
+  background-color: black; }
+
+p {
+  width: 180px;
+  height: 30px;
+  padding-top: 10px;
+  color: white;
+  border: 5px solid white;
+  margin: auto;
+  text-align: center; }
+
+@keyframes highlight {
+  from {
+    background-color: black;
+    color: white; }
+  to {
+    background-color: white;
+    color: black; } }
+p:hover {
+  animation-name: highlight;
+  animation-direction: alternate;
+  animation-duration: 1s;
+  animation-fill-mode: forwards; }
+
+/*# sourceMappingURL=styleexo2.css.map */

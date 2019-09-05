@@ -1,0 +1,9 @@
+body{
+	background-color: black;
+}
+[class*="col-"]{
+	border: 2px solid black;
+	background-color: white;
+	margin-bottom: 10px;
+	text-align: center;
+}

@@ -1,0 +1,47 @@
+body{
+	background-color: black;
+}
+
+p{
+	text-align: center;
+	margin: auto;
+	border: 5px solid white;
+	color: white;
+	width: 180px;
+	height: 30px;
+	padding-top: 10px;
+}
+@-webkit-keyframes animation{
+	from{
+		border: 5px solid white;
+		background-color: black;
+		color: white;
+	}
+	to{
+		border: 5px solid white;
+		background-color: white;
+		color: black;
+		width: 250px;
+		height: 80px;
+	}
+}
+@keyframes animation{
+	from{
+		border: 5px solid white;
+		background-color: black;
+		color: white;
+	}
+	to{
+		border: 5px solid white;
+		background-color: white;
+		color: black;
+		width: 250px;
+		height: 80px;
+	}
+}
+p:hover{
+	-webkit-animation-name: animation;
+	animation-name: animation;
+	animation-duration: 2s;
+	animation-direction: alternate;
+}

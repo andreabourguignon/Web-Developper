@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="bootstrap.min.css" />
+		<link rel="stylesheet" href="contact.css" />
+		<title>Contact</title>
+	</head>
+	<body>
+		<div class="container">
+			<nav class="row nav navbar">
+				<div class="col-sm-2 offset-sm-1">
+					<a href="acceuil.html">Acceuil</a>
+				</div>
+				<div class="col-sm-2">
+					<a href="carte.html">Carte</a>
+				</div>
+				<div class="col-sm-2">
+					<a href="photos.html">Photos</a>
+				</div>
+				<div class="col-sm-2">
+					<a href="restaurants.html">Restaurants</a>
+				</div>
+				<div class="col-sm-2">
+					<a href="contact.html">Contact</a>
+				</div>
+			</nav>
+			<div class="row">
+				<h1 class="lightgreen col-sm-12">Nous contacter</h1>
+			</div>
+			<form method="post" action="traitement.php" class="jumbotron">
+				<div class="row">
+					<p class="col-sm-6">
+						<label for="nom">Votre nom</label> : <input type="text" name="nom" id="nom" />
+					</p>
+					<p class="col-sm-6">
+						<label for="prenom">Votre prénom</label> : <input type="text" name="prenom" id="prenom" />
+					</p>
+				</div>
+				<div class="row">
+					<p class="col-sm-6">
+						<label for="mail">Votre adresse e-mail</label> : <input type="email" name="mail" id="mail" />
+					</p>
+					<p class="col-sm-6">
+						<label for="objet">Objet du message</label> : <select name="objet" id="objet">
+							<option value="question">Question</option>
+							<option value="plainte">Plainte</option>
+							<option value="remarque">Remarque</option>
+							<option value="Recommandation">Recommandation</option>
+						</select>
+					</p>
+				</div>
+				<div class="row">
+					<p class="col-sm-12">
+						<label for="message">Votre message</label> : <br />
+						<textarea name="message" id="message"></textarea>
+					</p>
+				</div>
+				<div class="row">
+					<input type="submit" value="envoyer" id="envoyer" />
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

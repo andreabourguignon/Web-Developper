@@ -1,0 +1,21 @@
+nav ul{
+	list-style-type: none;
+}
+nav{
+	margin-top: 10px;
+	background-color: rgb(131, 247, 139);
+}
+.lightgreen{
+	color: lightgreen;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#message{
+	width: 100%;
+	height: 100%;
+}
+#envoyer{
+	margin: auto;
+	margin-top: 50px;
+}

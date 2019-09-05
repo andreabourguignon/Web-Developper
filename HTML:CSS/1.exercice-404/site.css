@@ -1,0 +1,83 @@
+@keyframes example{
+	from {background-color: rgb(152, 224, 255);}
+	to {background-color: red;}
+}E
+
+header{
+	background-color: rgb(153, 224, 255);
+	text-align: center;
+}
+header:hover{
+	animation-name: example;
+	animation-duration: 10s;
+}
+
+header h1{
+	color: white;
+}
+
+header p{
+	font-size: 14px;
+}
+
+#bouton{
+	color: white;
+	background-color: black;
+	width: 150px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 5px 5px 5px 5px;
+	margin: auto;
+}
+
+section{
+	background-color: white;
+	display: flex;
+}
+
+section h2{
+	color: rgb(153, 224, 255);
+}
+input{
+	margin-top: 30px;
+	margin-left: 50px;
+}
+form{
+	margin-top: 100px;
+}
+
+footer{
+	background-color: rgb(152, 224, 255);
+	display: flex;
+	justify-content: space-around;
+}
+footer h2{
+	color: white;
+}
+#white{
+	color: white;
+}
+
+#bouton2{
+	background-color: black;
+	color: white;
+	text-align:center;
+	width: 100px;
+	padding: 10px;
+	border-radius: 5px 5px 5px 5px;
+}
+#lien{
+	display: flex;
+	justify-content: flex-start;
+}
+#bouton3{
+	background-color: white;
+	padding: 10px;
+	border-radius: 5px 5px 5px 5px;
+	margin-right: 100px;
+}
+#bouton4{
+	padding: 10px;
+	color: white;
+}
+

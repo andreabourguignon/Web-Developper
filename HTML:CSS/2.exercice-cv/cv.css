@@ -1,0 +1,44 @@
+header{
+	display: flex;
+	justify-content: space-between;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+#info{
+	padding-top: 3%;
+}
+
+h1{
+	text-align: center;
+}
+h2{
+	margin-left: 10%;
+}
+#formation, #expe{
+	display: flex;
+	justify-content: space-between;
+}
+#formation_date{
+	margin-left: 15%;
+}
+#formation_date p{
+	margin-top: 90%;
+}
+#formation_text{
+	margin-right: 15%;
+}
+
+#expe_date{
+	margin-left: 15%;
+}
+#expe_text{
+	margin-right: 8%;
+}
+#expe_date p{
+	margin-bottom: 70%;
+}
+footer{
+	display: flex;
+	justify-content: space-around;
+}
